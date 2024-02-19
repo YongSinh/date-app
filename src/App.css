@@ -1,0 +1,66 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+
+.btn-yes{
+  position: absolute;
+    top: 56%;
+    left: 49%;
+}
+
+.popup {
+  font-family: 'Great Vibes', cursive;
+  background-color: #fff;
+  border: 1px solid #e91e63; /* Romantic color for the border */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #e91e63; /* Romantic color for the popup text */
+}
+
+
+h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 36px;
+  margin-bottom: 30px;
+  color: #e91e63 !important; /* Romantic color for the heading */
+}
