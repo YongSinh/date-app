@@ -64,3 +64,37 @@ h1 {
   margin-bottom: 30px;
   color: #e91e63 !important; /* Romantic color for the heading */
 }
+
+
+@media only screen and (max-width: 600px) {
+
+  h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 24px !important;
+    color: #e91e63 !important; /* Romantic color for the heading */
+  }
+  
+.btn-yes{
+  position: absolute;
+    left: 60%;
+}
+
+.popup {
+  font-family: 'Great Vibes', cursive;
+  background-color: #fff;
+  border: 1px solid #e91e63; /* Romantic color for the border */
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  font-family: 'Dancing Script', cursive;
+  font-size: 24px;
+  color: #e91e63; /* Romantic color for the popup text */
+}
+
+
+}
